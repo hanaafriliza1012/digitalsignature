@@ -82,7 +82,7 @@ $pdf->MultiCell(0, 6, $row['tema_kegiatan'], 0, 'C', 0, 1); //end of line
 $pdf->Cell(189, 12, '', 0, 1); //end of line
 $pdf->SetFont('Times', '', 17);
 $pdf->Cell(8, 5, '', 0, 0);
-$pdf->Cell(0, 12, "Bandar Lampung, " . $row['tanggal_kegiatan'], 0, 0, 'C');
+$pdf->Cell(0, 12, "Bandar Lampung, " . $row['updated_at'], 0, 0, 'C');
 
 $pdf->Cell(189, 10, '', 0, 1); //end of line
 $pdf->SetFont('Times', 'B', 10);
