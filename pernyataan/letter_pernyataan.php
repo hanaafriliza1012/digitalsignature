@@ -51,10 +51,10 @@ include('koneksi.php');
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>Nama Peserta</th>
-                            <th>Nama Kegiatan</th>
-                            <th>Tanggal Kegiatan</th>
-                            <th>Pemateri</th>
+                            <th>Nama</th>
+                            <th>Keterangan</th>
+                            <th>Tanggal</th>
+                            <th>Penandatangan</th>
                             <th>QR Code</th>
                             <th>Print</th>
                         </tr>
