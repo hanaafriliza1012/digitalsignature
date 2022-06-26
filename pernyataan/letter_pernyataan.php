@@ -41,7 +41,7 @@ include('koneksi.php');
             </div>
         </nav>
         <br />
-        <h2 align="center">PRINT CERTIFICATE</h2>
+        <h2 align="center">PRINT LETTER</h2>
         <br />
         <form method="post">
             <div class="form-group">
