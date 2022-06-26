@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 25, 2022 at 05:16 PM
+-- Generation Time: Jun 26, 2022 at 03:53 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.16
 
@@ -41,8 +41,6 @@ CREATE TABLE `dokumen` (
 --
 
 INSERT INTO `dokumen` (`id_dokumen`, `id_kegiatan`, `signature_pad`, `qr_code`, `created_at`, `updated_at`) VALUES
-(4, 2, 'pic_20220616072426.png', 'qr_20220616072426.png', '2022-06-16 07:24:26', '2022-06-16 07:24:26'),
-(5, 1, 'pic_20220616114335.png', 'qr_20220616114335.png', '2022-06-16 11:43:35', '2022-06-16 11:43:35'),
 (10, 3, 'pic_20220625171002.png', 'qr_20220625171002.png', '2022-06-25 17:10:02', '2022-06-25 17:10:02');
 
 -- --------------------------------------------------------
@@ -66,8 +64,8 @@ CREATE TABLE `kegiatan` (
 --
 
 INSERT INTO `kegiatan` (`id_kegiatan`, `nama_kegiatan`, `tema_kegiatan`, `tanggal_kegiatan`, `pemateri`, `gambar_kegiatan`, `status`) VALUES
-(1, 'AI for Junior Developer', 'Tetap Navigation Bar. Membuat navigasi bar tinggal di bagian atas atau bawah halaman, bahkan ketika pengguna gulungan halaman.', '2022-06-15', 'Nicholas Saputra', 'background.jpg', '2'),
-(2, 'React For Junior Developer', 'Tetap Navigation Bar. Membuat navigasi bar tinggal di bagian atas atau bawah halaman, bahkan ketika pengguna gulungan halaman', '2022-06-15', 'Nadim Makarim', 'background.jpg', '2'),
+(1, 'AI for Junior Developer', 'Tetap Navigation Bar. Membuat navigasi bar tinggal di bagian atas atau bawah halaman, bahkan ketika pengguna gulungan halaman.', '2022-06-15', 'Nicholas Saputra', 'background.jpg', '1'),
+(2, 'React For Junior Developer', 'Tetap Navigation Bar. Membuat navigasi bar tinggal di bagian atas atau bawah halaman, bahkan ketika pengguna gulungan halaman', '2022-06-15', 'Nadim Makarim', 'background.jpg', '1'),
 (3, 'JS for Junior Developer', 'navigasi bar tinggal di bagian atas atau bawah halaman, bahkan ketika pengguna gulungan halaman', '2022-06-16', 'Jonathan Christie', 'background.jpg', '2'),
 (4, 'Flutter for Junior Developer', 'Applying DevOps in Flutter Mobile Development', '2022-06-18', 'Robert Budi', 'background.jpg', '1');
 

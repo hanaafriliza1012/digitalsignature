@@ -130,4 +130,4 @@ $pdf->Cell(8, 4, '', 0, 0);
 $pdf->Cell(0, 10, $row['nama_penandatangan'], 0, 1, 'R'); //end of line
 
 
-$pdf->Output("Certificate.pdf", "I");
+$pdf->Output("Letter.pdf", "I");
