@@ -51,7 +51,7 @@ include('koneksi.php');
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>JKeterangan</th>
+                            <th>Keterangan</th>
                             <th>Tanggal</th>
                             <th>Penandatangan</th>
                             <th>QR Code</th>

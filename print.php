@@ -86,7 +86,7 @@ $pdf->Cell(0, 12, "Bandar Lampung, " . $row['updated_at'], 0, 0, 'C');
 
 $pdf->Cell(189, 10, '', 0, 1); //end of line
 $pdf->SetFont('Times', 'B', 10);
-$path1 = '/Signature/signatureContoh/upload_qr/';
+$path1 = 'upload_qr/';
 $image1 = $row['qr_code'];
 $fullPath1 = $path1 . $image1;
 $pdf->Image($fullPath1, 30, 146, 45, 45);
@@ -99,7 +99,7 @@ $pdf->Cell(189, 10, '', 0, 1); //end of line
 
 $pdf->SetFont('Times', 'B', 10);
 $pdf->Cell(110, 4, '', 0, 0);
-$path = '/Signature/signatureContoh/upload/';
+$path = 'upload/';
 $image = $row['signature_pad'];
 $fullPath = $path . $image;
 // var_dump($fullPath);

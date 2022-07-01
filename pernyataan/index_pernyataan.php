@@ -30,7 +30,7 @@ include('koneksi.php');
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="pernyataan/index_pernyataan.php">Letter</a></li>
+                                <li><a class="dropdown-item" href="/pernyataan/index_pernyataan.php">Letter</a></li>
                             </ul>
                         </li>
                         <!-- <li class="nav-item">

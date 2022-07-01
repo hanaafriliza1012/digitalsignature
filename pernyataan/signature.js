@@ -114,7 +114,7 @@ function dataURLtoFile(dataurl, filename) {
 const generateQR = (data_uri, img) => {
     const payload = `{
         id: ${$("#id_pernyataan_kegiatan").val()},
-        link: "http://localhost:8000/verify_pernyataan.php?id=${$("#id_pernyataan_kegiatan").val()}",
+        link: "https://lib.ilkomdigitalsignature.my.id/pernyataan/verify_pernyataan.php?id=${$("#id_pernyataan_kegiatan").val()}",
         foto: ${data_uri}
         
     }`;
