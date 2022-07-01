@@ -41,7 +41,7 @@ include('koneksi.php');
             </div>
         </nav>
         <br />
-        <h2 align="center">Verify Kegiatan</h2>
+        <h2 align="center">VERIFICATION LETTER</h2>
         <br />
         <form method="post">
             <div class="form-group">

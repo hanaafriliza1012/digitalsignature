@@ -42,7 +42,7 @@ $id = $_GET['id']
             </div>
         </nav>
         <br />
-        <h2 align="center">Verify Letter</h2>
+        <h2 align="center">VERIFICATION LETTER</h2>
         <br />
         <table class="table table-borderless display responsive nowrap" style="width:100%">
             <tbody>
